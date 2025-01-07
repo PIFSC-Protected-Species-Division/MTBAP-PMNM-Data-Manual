@@ -1,1 +1,1 @@
-Sitemap: https://nmfs-opensci.github.io/NOAA-quarto-book/sitemap.xml
+Sitemap: https://pifsc-protected-species-division.github.io/MTBAP-PMNM-Data-Manual/sitemap.xml
