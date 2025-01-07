@@ -3,37 +3,28 @@ project:
 
 book: 
   page-navigation: true
-  title: "NOAA quarto book" 
-  site-url: "https://nmfs-opensci.github.io/NOAA-quarto-book" 
-  repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-book"
+  title: "MTBAP PMNM Data Manual" 
+  site-url: "https://pifsc-protected-species-division.github.io/MTBAP-PMNM-Data-Manual/" 
+  repo-url: "https://github.com/PIFSC-Protected-Species-Division/MTBAP-PMNM-Data-Manual"
   repo-actions: [edit, source, issue]
   favicon: assets/favicon.ico
   downloads: [pdf, docx]
   search: true
   author:
-    - name: Jane Doe
+    - name: Marylou Staman
       affiliations:
-        - name: NOAA Fisheres
-          department: Northwest Fisheries Science Center
-    - name: Eva Nováková
-      institute: test
-      affiliations:
-        - name: NOAA Fisheries
-          department: West Coast Regional Office
-          institute: test
-    - name: Matti Meikäläinen
-      affiliations:
-        - name: NOAA Fisheries
-          department: Southwest Fisheries Science Center
+        - name: NOAA Fisheries, Pacific Islands Fisheries Science Center
+          department: Protected Species Division, Marine Turtle Biology and Assessment Program
+
   chapters:
     - index.qmd
-    - content/setup.qmd
+    - content/Chapter-1.qmd
     - content/add-content.qmd
     - content/customizing.qmd
     - content/rendering.qmd
-    - content/figures_and_tables.qmd
+    - content/Chapter-3_figures_and_tables.qmd
     - content/code.qmd
-    - content/adding-refs.qmd
+    - content/Chapter-2_adding-refs.qmd
     - content/references.qmd
 
   page-footer:
@@ -42,8 +33,8 @@ book:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
-    favicon: images/favicon.ico
+    logo: "images/noaa-fisheries-rgb-2line-horizontal-small.png"
+    favicon: assets/favicon.ico
     pinned: true
     align: center
     tools: 
